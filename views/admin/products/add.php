@@ -24,6 +24,7 @@ if(isset($_SESSION["success"])){
     <div class="container my-5">
         <h2>Product Maintenance</h2>
 
+        <!-- message response -->
         <?php if(isset($messSucc)){ ?>
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
                         <strong><?php echo $messSucc; ?></strong>
